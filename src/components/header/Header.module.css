@@ -1,0 +1,20 @@
+.header {
+	background: #0067A3;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	width: 331px;
+	font-size: 28px;
+	line-height: 33px;
+	color: #fff;
+	margin-left: 20px;
+	font-weight: 400;
+}
+
+.image {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+}

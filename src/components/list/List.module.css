@@ -1,0 +1,65 @@
+
+
+.list {
+	background: #EBECF0;
+border-radius: 10px;
+width: 282px;
+min-height: 197px;
+
+}
+
+.scroll {
+	border-radius: 10px;
+	
+}
+
+.listTitle {
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+padding-top: 10px;
+padding-left: 8px;
+}
+
+.task {
+	background: #fff;
+	color: #000000;
+	margin: 7px 0;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.task:hover {
+	text-decoration: underline;
+}
+
+.taskLink {
+	text-decoration: none;
+}
+
+.addButton {
+	border: none;
+	font-size: 15px;
+	color: #5E6C84;
+	margin-top: 15px;
+	cursor: pointer;
+	border-radius: 10px;
+
+
+}
+
+.addButton:hover {
+	color: #000;
+}
+
+
+
+@media (max-width: 768px) {
+    .list {
+        margin-bottom: 50px;
+		width: auto;
+    }
+    
+}
+

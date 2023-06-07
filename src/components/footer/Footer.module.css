@@ -1,0 +1,20 @@
+.footer {
+	height: 55px;
+	color: #fff;
+	display: flex;
+	padding: 0 20px;
+	align-items: center;
+	background-color: #0067A3;
+}
+
+.counts {
+	display: flex;
+}
+
+.count {
+	margin-right: 30px;
+}
+
+.copy {
+	margin-left: auto;
+}

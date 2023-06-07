@@ -1,0 +1,41 @@
+.form {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	background-color: #EBECF0;
+	border-radius: 10px;
+}
+
+.input {
+	display: block;
+	padding: 8px;
+	border: none;
+}
+.input:hover {
+	background:#DEDEDE;
+	cursor: pointer;
+}
+
+.textarea {
+	resize: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.submit {
+	background: #0079BF;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 8px 0;
+	width: 102px;
+	height: 29px;
+	cursor: pointer;
+	align-self: flex-start;
+	margin-bottom: 9px;
+	margin-left:11px;
+	margin-top: 12px;
+}
+
+.submit:hover {
+	background: #5d7194;
+}
